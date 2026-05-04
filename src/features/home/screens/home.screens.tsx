@@ -1,23 +1,28 @@
-import DealsBanner from "../components/Bannar"
-import Features from "../components/Features"
-import NewsLatter from "../components/NewsLatter"
-import Slider from "../components/Slider"
-import TypeOfTourism from "../components/TypeOfTourism"
+import Allgover from "../components/All-gover";
+import DealsBanner from "../components/Bannar";
+import Features from "../components/Features";
+import NewsLatter from "../components/NewsLatter";
+import Slider from "../components/Slider";
+import TopReatedPlace from "../components/Top.reated.place";
 
 function HomeScreen() {
-    return <>
-        <div className="container space-y-3">
-            <Slider />
+  return (
+    <>
+      <div className="container space-y-3">
+        <Slider />
 
-            <Features />
+        <Features />
 
-            <TypeOfTourism />
+        <TopReatedPlace />
 
-            <DealsBanner />
+        <Allgover />
 
-            <NewsLatter />
-        </div>
+        <DealsBanner />
+
+        <NewsLatter />
+      </div>
     </>
+  );
 }
 
-export default HomeScreen
+export default HomeScreen;

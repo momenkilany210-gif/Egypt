@@ -1,5 +1,9 @@
-import GoverSites from '../../../(platform)/gover-sites/goverSites';
-
-export default function Page() {
-    return <GoverSites />;
+function Page() {
+  return (
+    <div>
+      <h1>Page</h1>
+    </div>
+  );
 }
+
+export default Page;

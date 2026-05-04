@@ -2,7 +2,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import HistoricalPlaceCard from "./HistoricalPlaceCard"
 
-function TypeOfTourism() {
+function TopReatedPlace() {
 
     return <>
         <div>
@@ -26,4 +26,4 @@ function TypeOfTourism() {
         </div>
     </>
 }
-export default TypeOfTourism
+export default TopReatedPlace
